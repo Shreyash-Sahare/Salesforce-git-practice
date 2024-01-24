@@ -1,0 +1,9 @@
+<template>
+<template for:each={contacts.data} for:item="cont">
+    <p key={cont.Id}>
+        {cont.FirstName}
+        {cont.LastName}
+        {cont.Email}
+    </p>
+    </template>
+</template>
